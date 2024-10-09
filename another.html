@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Car List Website</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .car-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        .car-item:hover {
+            transform: scale(1.05);
+        }
+        .car-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .car-item h3 {
+            margin: 15px 0 10px 0;
+        }
+        .car-item p {
+            margin: 5px 0;
+        } 
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('car-hero.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        } 
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CAR LIST 2024 PROJECT</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">LIST</a></li>
+            <li><a href="#models">MODELS</a></li>
+            <li><a href="#services">SERIES</a></li>
+            <li><a href="#about">ABOUT CARS</a></li>
+            <li><a href="#contact">ABOUT US</a></li>
+        </ul>
+    </nav>
+ 
+    <div class="car-list">
+        <a href="ford-mustang.html" class="car-item">
+            <img src="images/fordmustang.jpg" alt="Car 1">
+            <h3>Ford Mustang</h3>
+            <p>Year: 2022</p>
+            <p>Price: ₱3.999 Million</p>
+        </a>
+
+        <a href="mazda rx7.html" class="car-item">
+            <img src="images/mazda.jpg" alt="Car 2">
+            <h3>Mazda Rx7</h3>
+            <p>Year: 2021</p>
+            <p>Price: ₱4,232 Million</p>
+        </a>
+
+        <a href="car3.html" class="car-item">
+            <img src="images/supra.jpg" alt="Car 3">
+            <h3>Toyota Supra</h3>
+            <p>Year: 2020</p>
+            <p>Price: ₱5.396 Million</p>
+        </a>
+
+        <a href="car4.html" class="car-item">
+            <img src="images/M3 GTR.jpg" alt="Car 4">
+            <h3>BMW M3 GTR</h3>
+            <p>Year: 2002</p>
+            <p>Price: ₱10 Million</p>
+        </a>
+
+        <!-- Additional Car Items --> 
+        <a href="car5.html" class="car-item">
+            <img src="images/AUDI.jpg" alt="Car 5">
+            <h3>Audi A6</h3>
+            <p>Year: 2022</p>
+            <p>Price: ₱4.69 Million </p>
+        </a>
+
+        <a href="car6.html" class="car-item">
+            <img src="images/mercedes.jpg" alt="Car 6">
+            <h3>Mercedes-Benz C-Class</h3>
+            <p>Year: 2023</p>
+            <p>Price: ₱3.99 Million</p>
+        </a>
+
+        <a href="car7.html" class="car-item">
+            <img src="images/911.jpg" alt="Car 7">
+            <h3>Porsche 911</h3>
+            <p>Year: 2021</p>
+            <p>Price:  ₱7.288 Million</p>
+        </a>
+
+        <a href="car8.html" class="car-item">
+            <img src="images/range.jpg" alt="Car 8">
+            <h3>Range Rover Evoque</h3>
+            <p>Year: 2022</p>
+            <p>Price:  ₱16.99 Million</p>
+        </a>
+
+        <!-- Additional Car Items -->
+        <a href="car5.html" class="car-item">
+            <img src="images/raptot.jpg" alt="Car 5">
+            <h3>Ford Raptor</h3>
+            <p>Year: 2024</p>
+            <p>Price: ₱2,345 Million </p>
+        </a>
+
+        <a href="car6.html" class="car-item">
+            <img src="images/F40.jpg" alt="Car 6">
+            <h3>Ferrari F40</h3>
+            <p>Year: 1987</p>
+            <p>Price: ₱6,765, Million</p>
+        </a>
+
+        <a href="car7.html" class="car-item">
+            <img src="images/R34.jpg" alt="Car 7">
+            <h3>SKYLINE GT-R34</h3>
+            <p>Year: 2002</p>
+            <p>Price:  ₱2,880 Million</p>
+        </a>
+
+        <a href="car8.html" class="car-item">
+            <img src="images/SILVIA.jpg" alt="Car 8">
+            <h3>NIssan Silvia</h3>
+            <p>Year: 2003</p>
+            <p>Price:  ₱1,280 Million</p>
+        </a>
+    </div>
+
+<footer>
+    2024 PROJECT CAR LIST FOR SIR FRANZ
+</footer>
+
+
+</body>
+</html>
